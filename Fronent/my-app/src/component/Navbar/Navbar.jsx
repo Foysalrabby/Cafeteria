@@ -5,8 +5,11 @@ const Navbar = () => {
     return (
         <div className='Navbar'>
         <div className='Navbarcontainer'>
-        <span> Cafetria</span>
+        <span className='Navbarlogo'> Cafetria</span>
         <div className='navitem'>
+        <span>Service </span>
+        <span>Contact</span>
+        <span> About us</span>
         <button className='navButton'> Singup</button>
         <button className='navButton'> LogIn</button>
         </div>
